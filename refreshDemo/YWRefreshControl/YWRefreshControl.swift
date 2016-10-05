@@ -21,7 +21,7 @@ enum YWRefreshStaus {
 }
 
 /// 刷新状态切换的临界点
-fileprivate let YWRefreshOffset: CGFloat = 60
+fileprivate let YWRefreshOffset: CGFloat = 122
 
 class YWRefreshControl: UIControl {
     
@@ -74,6 +74,9 @@ class YWRefreshControl: UIControl {
             return
         }
         
+        //传递高度
+        refrershView.parentViewHeight = height
+        
         //根据高度设置刷新控件的frame
         self.frame = CGRect(x: 0, y: -height, width: sv.bounds.width, height: height)
         
@@ -117,12 +120,16 @@ class YWRefreshControl: UIControl {
         if refrershView.refreshStatus == .WillRefresh {
             return
         }
-        //设置表格状态 要放在设置间距前面
+        //设置表格间距 要放在设置间距前面
         refrershView.refreshStatus = .WillRefresh
+
         //设置新视图的间距
         var inset1 = sv.contentInset
          inset1.top += YWRefreshOffset
         sv.contentInset = inset1
+        
+        refrershView.parentViewHeight = YWRefreshOffset
+
         
     }
     

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D07CAD630DE2FE1F29FF8BCAF6DD026B6FDAB369",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1EB240FCE7084EB5C70E28CB2B69ABA3DA3CAFB7" : 9223372036854775807,
+    "D07CAD630DE2FE1F29FF8BCAF6DD026B6FDAB369" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "75233FD9-E64F-4ADF-A537-4A54EE1C393C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1EB240FCE7084EB5C70E28CB2B69ABA3DA3CAFB7" : "..\/Documents\/workProject\/Weibo",
+    "D07CAD630DE2FE1F29FF8BCAF6DD026B6FDAB369" : "refreshDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "refreshDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "refreshDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/IosYaoWei\/Weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EB240FCE7084EB5C70E28CB2B69ABA3DA3CAFB7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iosyaowei\/refreshDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D07CAD630DE2FE1F29FF8BCAF6DD026B6FDAB369"
+    }
+  ]
+}

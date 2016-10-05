@@ -23,35 +23,37 @@ class YWRefreshView: UIView {
         didSet {
             switch refreshStatus {
             case .Normal:
-                tipIcon.isHidden = false
-                tipIndicator.stopAnimating()
-                tipLab.text = "继续使劲拉..."
+                tipIcon?.isHidden = false
+                tipIndicator?.stopAnimating()
+                tipLab?.text = "继续使劲拉..."
                 UIView.animate(withDuration: 0.25, animations: { 
-                    self.tipIcon.transform = CGAffineTransform.identity
+                    self.tipIcon?.transform = CGAffineTransform.identity
                 })
             case .Pulling:
-                tipLab.text = "放手就刷新..."
+                tipLab?.text = "放手就刷新..."
                 UIView.animate(withDuration: 0.25, animations: { 
-                    self.tipIcon.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI - 0.001))
+                    self.tipIcon?.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI - 0.001))
                 })
             case .WillRefresh:
-                tipLab.text = "正在刷新中..."
-                tipIcon.isHidden = true
-                tipIndicator.startAnimating()
+                tipLab?.text = "正在刷新中..."
+                tipIcon?.isHidden = true
+                tipIndicator?.startAnimating()
             }
         }
     }
     /// 提示标签
-    @IBOutlet weak var tipLab: UILabel!
+    @IBOutlet weak var tipLab: UILabel?
     /// 指示图标
-    @IBOutlet weak var tipIcon: UIImageView!
+    @IBOutlet weak var tipIcon: UIImageView?
     /// 指示器
-    @IBOutlet weak var tipIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var tipIndicator: UIActivityIndicatorView?
     
+    //父视图高度
+    var parentViewHeight: CGFloat = 0 
 
     class func refreshView() ->YWRefreshView {
     
-        let nib = UINib(nibName: "YWRefreshView", bundle: nil)
+        let nib = UINib(nibName: "YWMTRefreshView", bundle: nil)
         return nib.instantiate(withOwner: nil, options: nil)[0] as! YWRefreshView
     }
 }

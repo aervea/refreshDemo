@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B03966E1DA4DD6700D18C62 /* YWMTRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0396691DA4DD6700D18C62 /* YWMTRefreshView.swift */; };
+		7B03966F1DA4DD6700D18C62 /* YWMTRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B03966A1DA4DD6700D18C62 /* YWMTRefreshView.xib */; };
+		7B0396701DA4DD6700D18C62 /* YWRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03966B1DA4DD6700D18C62 /* YWRefreshControl.swift */; };
+		7B0396711DA4DD6700D18C62 /* YWRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03966C1DA4DD6700D18C62 /* YWRefreshView.swift */; };
+		7B0396721DA4DD6700D18C62 /* YWRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B03966D1DA4DD6700D18C62 /* YWRefreshView.xib */; };
 		7B9C82E71DA40D920078FFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C82E61DA40D920078FFC2 /* AppDelegate.swift */; };
 		7B9C82E91DA40D920078FFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C82E81DA40D920078FFC2 /* ViewController.swift */; };
 		7B9C82EC1DA40D920078FFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C82EA1DA40D920078FFC2 /* Main.storyboard */; };
 		7B9C82EE1DA40D920078FFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C82ED1DA40D920078FFC2 /* Assets.xcassets */; };
 		7B9C82F11DA40D920078FFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C82EF1DA40D920078FFC2 /* LaunchScreen.storyboard */; };
-		7BC5B5A91DA44305004FB9CB /* YWRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5B5A61DA44305004FB9CB /* YWRefreshControl.swift */; };
-		7BC5B5AA1DA44305004FB9CB /* YWRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5B5A71DA44305004FB9CB /* YWRefreshView.swift */; };
-		7BC5B5AB1DA44306004FB9CB /* YWRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC5B5A81DA44305004FB9CB /* YWRefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B0396691DA4DD6700D18C62 /* YWMTRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWMTRefreshView.swift; sourceTree = "<group>"; };
+		7B03966A1DA4DD6700D18C62 /* YWMTRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWMTRefreshView.xib; sourceTree = "<group>"; };
+		7B03966B1DA4DD6700D18C62 /* YWRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWRefreshControl.swift; sourceTree = "<group>"; };
+		7B03966C1DA4DD6700D18C62 /* YWRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWRefreshView.swift; sourceTree = "<group>"; };
+		7B03966D1DA4DD6700D18C62 /* YWRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWRefreshView.xib; sourceTree = "<group>"; };
 		7B9C82E31DA40D920078FFC2 /* refreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9C82E61DA40D920078FFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B9C82E81DA40D920078FFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +32,6 @@
 		7B9C82ED1DA40D920078FFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B9C82F01DA40D920078FFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B9C82F21DA40D920078FFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BC5B5A61DA44305004FB9CB /* YWRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWRefreshControl.swift; sourceTree = "<group>"; };
-		7BC5B5A71DA44305004FB9CB /* YWRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWRefreshView.swift; sourceTree = "<group>"; };
-		7BC5B5A81DA44305004FB9CB /* YWRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWRefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0396681DA4DD6700D18C62 /* YWRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				7B0396691DA4DD6700D18C62 /* YWMTRefreshView.swift */,
+				7B03966A1DA4DD6700D18C62 /* YWMTRefreshView.xib */,
+				7B03966B1DA4DD6700D18C62 /* YWRefreshControl.swift */,
+				7B03966C1DA4DD6700D18C62 /* YWRefreshView.swift */,
+				7B03966D1DA4DD6700D18C62 /* YWRefreshView.xib */,
+			);
+			name = YWRefreshControl;
+			path = refreshDemo/YWRefreshControl;
+			sourceTree = "<group>";
+		};
 		7B9C82DA1DA40D920078FFC2 = {
 			isa = PBXGroup;
 			children = (
-				7BC5B5A51DA44305004FB9CB /* YWRefreshControl */,
+				7B0396681DA4DD6700D18C62 /* YWRefreshControl */,
 				7B9C82E51DA40D920078FFC2 /* refreshDemo */,
 				7B9C82E41DA40D920078FFC2 /* Products */,
 			);
@@ -69,17 +86,6 @@
 				7B9C82F21DA40D920078FFC2 /* Info.plist */,
 			);
 			path = refreshDemo;
-			sourceTree = "<group>";
-		};
-		7BC5B5A51DA44305004FB9CB /* YWRefreshControl */ = {
-			isa = PBXGroup;
-			children = (
-				7BC5B5A61DA44305004FB9CB /* YWRefreshControl.swift */,
-				7BC5B5A71DA44305004FB9CB /* YWRefreshView.swift */,
-				7BC5B5A81DA44305004FB9CB /* YWRefreshView.xib */,
-			);
-			name = YWRefreshControl;
-			path = refreshDemo/YWRefreshControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC5B5AB1DA44306004FB9CB /* YWRefreshView.xib in Resources */,
 				7B9C82F11DA40D920078FFC2 /* LaunchScreen.storyboard in Resources */,
+				7B0396721DA4DD6700D18C62 /* YWRefreshView.xib in Resources */,
 				7B9C82EE1DA40D920078FFC2 /* Assets.xcassets in Resources */,
 				7B9C82EC1DA40D920078FFC2 /* Main.storyboard in Resources */,
+				7B03966F1DA4DD6700D18C62 /* YWMTRefreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,9 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC5B5AA1DA44305004FB9CB /* YWRefreshView.swift in Sources */,
-				7BC5B5A91DA44305004FB9CB /* YWRefreshControl.swift in Sources */,
+				7B0396711DA4DD6700D18C62 /* YWRefreshView.swift in Sources */,
 				7B9C82E91DA40D920078FFC2 /* ViewController.swift in Sources */,
+				7B0396701DA4DD6700D18C62 /* YWRefreshControl.swift in Sources */,
+				7B03966E1DA4DD6700D18C62 /* YWMTRefreshView.swift in Sources */,
 				7B9C82E71DA40D920078FFC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
